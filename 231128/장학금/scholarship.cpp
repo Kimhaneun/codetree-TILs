@@ -9,6 +9,8 @@ int main() {
        cout << "100000";
        else if (b >= 90)
        cout << "50000";
+       else 
+       cout << "0";
     }
     else 
     cout << "0";
