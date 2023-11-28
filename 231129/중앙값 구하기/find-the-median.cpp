@@ -8,7 +8,7 @@ int main() {
     if (a > b > c || c > b > a)
     cout << b;
 
-    else if (b > c > a || a > c > b)
+     if (b > c > a || a > c > b)
     cout << c;
 
     else 
