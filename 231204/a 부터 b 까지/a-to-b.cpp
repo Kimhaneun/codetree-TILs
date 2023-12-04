@@ -10,11 +10,15 @@ int main() {
         if (i % 2 != 0)
         {
             i *= 2;
+            if (i < b)
+            break;
             cout << i << " ";
         }
         else if (i % 2 == 0)
         {
             i += 3;
+            if (i < b)
+            break;
             cout << i << " ";
         }
     }
