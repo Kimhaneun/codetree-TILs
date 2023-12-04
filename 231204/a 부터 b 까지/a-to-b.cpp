@@ -12,7 +12,7 @@ int main() {
             i *= 2;
             cout << i << " ";
         }
-        else 
+        else if (i % 2 == 0)
         {
             i += 3;
             cout << i << " ";
