@@ -11,7 +11,7 @@ int main() {
             cout << a;
         }
     }
-    else if (a == 0)
+    else
     cout << "0";
     return 0;
 }
