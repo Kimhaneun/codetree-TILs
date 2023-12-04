@@ -8,7 +8,9 @@ int main() {
     {
         cin >> input;
         if (input % 2 == 0)
-        cnt++;
+        {
+            cnt++;
+        }
     }
     cout << cnt;
     return 0;
