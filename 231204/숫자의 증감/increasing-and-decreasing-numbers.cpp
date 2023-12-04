@@ -4,8 +4,7 @@ using namespace std;
 int main() {
     char c;
     int n;
-    cin >> c;
-    cin >> n;
+    cin >> c >> n;
     if (c == 'A')
     {
         for (int i = 1; i <= n; i++)
@@ -15,7 +14,7 @@ int main() {
     }
     else if (c == 'D')
     {
-        for (int i = n; i <= n; i--)
+        for (int i = n; i >= n; i--)
         {
           cout << i << " ";
         }
