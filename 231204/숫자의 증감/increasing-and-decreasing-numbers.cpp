@@ -2,7 +2,7 @@
 
 using namespace std;
 int main() {
-    char c;
+    string c;
     int n;
     cin >> c >> n;
     if (c == "A")
