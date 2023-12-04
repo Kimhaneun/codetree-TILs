@@ -4,7 +4,8 @@ using namespace std;
 int main() {
     char c;
     int n;
-    cin >> c >> n;
+    cin >> c;
+    cin >> n;
     if (c == 'A')
     {
         for (int i = 1; i <= n; i++)
