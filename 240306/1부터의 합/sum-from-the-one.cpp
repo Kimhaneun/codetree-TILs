@@ -7,7 +7,10 @@ int main() {
 
     for(int i = 1; i <= 100; i++){
 
-        if(answer + i > n && n <= 100){
+        if(n >= 100)
+         n == 100;
+
+        if(answer + i > n){
             cout << answer;
                     break;
         }
