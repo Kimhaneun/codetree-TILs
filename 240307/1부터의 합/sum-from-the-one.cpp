@@ -2,7 +2,7 @@
 
 using namespace std;
 int main() {
-    int n, answer = 1;
+    int n, answer = 0;
     cin >> n;
 
     for(int i = 1; i <= 100; i++){
@@ -13,6 +13,7 @@ int main() {
         }
         answer += i;
         if(answer + i >= 100){
+            answer = 100;
             cout << answer;
             break;
         }
