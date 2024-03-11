@@ -6,17 +6,19 @@ int main() {
 
     while(true){
         std :: cin >> n;
-       
-        if(n >= 30){
-            std :: cout << std :: fixed;
-            std :: cout.precision(2);
-            std :: cout << sum / i;
 
+       if(n < 20 || n > 29){
             break;
         }
 
-        sum += n;
         i++;
+        sum += n;
+      
     }
+    std :: cout << std :: fixed;
+    std :: cout.precision(2);
+    
+    std :: cout << sum / i;
+
     return 0;
 }
